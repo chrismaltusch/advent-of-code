@@ -31,6 +31,7 @@ def separate_alphabets_numbers(line):
     alphabets = "" 
     numbers = ""
     word = wordninja.split(line)
+    #caution; not working as expected because of words like twone, eightwo, and tone, zone, bone, lone, etc
 
     for char in line:
         if char.isalpha():
@@ -68,19 +69,18 @@ def sum_numbers_in_file(filename):
     return total
 
 input_filename = 'input.txt'
-output_filename = 'output.txt'
-test_file = 'test.txt'
-part2_final_file = 'part2.txt'
-processed_filename = 'processed.txt'
-final_filename = 'final.txt'
+output_filename = 'part2_output.txt'
+processed_filename = 'part2_processed.txt'
+final_filename = 'part2_second_processed.txt'
+part2_final_file = 'part2_solution.txt'
 
-#this block of code parses the text; day-1 requests parsing out all the text from the numbers
+#this block of code parses the text; day-1 requests parsing out all the text from the numbers; commented this out and manually cleaned the data
 
-with open(input_filename, 'r') as infile, open(output_filename, 'w') as outfile:
-    for line in infile:
-        alphabets, numbers, word = separate_alphabets_numbers(line)
-        # For example, write the separated alphabets and numbers to a new file
-        outfile.write(f"{word}\n")
+# with open(input_filename, 'r') as infile, open(output_filename, 'w') as outfile:
+#     for line in infile:
+#         alphabets, numbers, word = separate_alphabets_numbers(line)
+#         # For example, write the separated alphabets and numbers to a new file
+#         outfile.write(f"{word}\n")
 
 with open (output_filename, 'r') as infile, open(processed_filename, 'w') as outfile:
     for line in infile:

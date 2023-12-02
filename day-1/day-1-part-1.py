@@ -40,8 +40,8 @@ def sum_numbers_in_file(filename):
     return total
 
 input_filename = 'input.txt'
-output_filename = 'output.txt'
-part1_final_file = 'part1.txt'
+output_filename = 'part1_processed.txt'
+part1_final_file = 'part1_solution.txt'
 
 #parses the text; day-1 requests parsing out all the text from the numbers
 
