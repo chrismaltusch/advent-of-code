@@ -1,8 +1,8 @@
-# Advent of Code 2023 - Personal Python Journey
+# Advent of Code 2023 - Personal Python Development
 
 ## Introduction
 
-Welcome to the thrilling world of coding challenges! This README is mytrusty guide as I embark on the Advent of Code, a journey filled with puzzles and learning. Perfect for novices, this Python adventure promises fun and growth.
+Welcome to the thrilling world of coding challenges! This README is my trusty guide as I embark on the Advent of Code, a journey filled with puzzles and learning. This Python adventure promises fun and growth.
 
 ## Getting Started
 
