@@ -31,7 +31,7 @@ def separate_alphabets_numbers(line):
     alphabets = "" 
     numbers = ""
     word = wordninja.split(line)
-    #caution; not working as expected because of words like twone, eightwo, and tone, zone, bone, lone, etc
+    #caution; not working as expected because of words like twone, eightwo, and tone, zone, bone, lone, sixx, niner, height, eighth etc
 
     for char in line:
         if char.isalpha():
