@@ -2,8 +2,8 @@ import requests
 
 #this block of code automates the download of the input file; should only be run once not every single time
 
-cookies = {'session': '53616c7465645f5f46485efdb1e993f0b2813dffb3438d335654dbb21ebe0ecb8206e5c5fdcd854605cbd3852f1c753eff3a3c3364341d3dc0d75029609429c6'}
-url = 'https://adventofcode.com/2023/day/3/input'
+cookies = {'session': '53616c7465645f5fab86d3a643a0a8975027e4910b52363c27daa71bd0adc4e5386cf1ae6d437ae9b7995f120baa22a80df943d5b76983de4ca853273fecadfe'}
+url = 'https://adventofcode.com/2023/day/4/input'
 
 response = requests.get(url, cookies=cookies)
 
